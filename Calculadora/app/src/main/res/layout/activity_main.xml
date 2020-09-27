@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3pt"
+        android:layout_marginTop="5pt"
+        android:text="Ingrese el primer valor"></TextView>
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3pt"
+        android:layout_marginTop="5pt"
+        android:text="Ingrese el segundo valor"></TextView>
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+
+        <RadioButton
+            android:id="@+id/suma"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:text="suma" />
+
+        <RadioButton
+            android:id="@+id/resta"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:text="resta" />
+
+        <RadioButton
+            android:id="@+id/multiplicacion"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:text="multi" />
+
+        <RadioButton
+            android:id="@+id/division"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:text="div" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3pt"
+        android:layout_marginTop="5pt"
+        android:text="Resultado"></TextView>
+
+    <Button
+        android:id="@+id/calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+
+
+</LinearLayout>
