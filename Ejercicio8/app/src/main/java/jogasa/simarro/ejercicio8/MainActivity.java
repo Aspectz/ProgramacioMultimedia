@@ -21,25 +21,26 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickDashBoard(View v){
         Toast.makeText(this, getResources().getResourceEntryName(v.getId()).toString(), Toast.LENGTH_SHORT).show();
+        String texto=getResources().getResourceEntryName(v.getId()).toString();
         Intent intent=new Intent(this, BlankActivity.class);
         switch (v.getId()){
             case R.id.anadir:
-                intent.putExtra("TEXTO","Anadir");
+                intent.putExtra("TEXTO",texto);
                 break;
             case R.id.borrar:
-                intent.putExtra("TEXTO","Borrar");
+                intent.putExtra("TEXTO",texto);
                 break;
             case R.id.camara:
-                intent.putExtra("TEXTO","Camara");
+                intent.putExtra("TEXTO",texto);
                 break;
             case R.id.galeria:
-                intent.putExtra("TEXTO","Galeria");
+                intent.putExtra("TEXTO",texto);
                 break;
             case R.id.guardar:
-                intent.putExtra("TEXTO","Guardar");
+                intent.putExtra("TEXTO",texto);
                 break;
             case R.id.enviar:
-                intent.putExtra("TEXTO","Enviar");
+                intent.putExtra("TEXTO",texto);
                 break;
         }
         startActivity(intent);
