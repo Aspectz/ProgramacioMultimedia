@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BankApp</string>
+    <string name="bienvenido">Welcome</string>
+    <string name="banco">Bank</string>
+    <string name="login">Log In</string>
+    <string name="passwd">Password</string>
+</resources>
