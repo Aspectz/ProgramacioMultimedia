@@ -19,7 +19,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.424" />
+        app:layout_constraintVertical_bias="0.334" />
 
     <TextView
         android:id="@+id/textView3"
@@ -32,7 +32,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.139" />
+        app:layout_constraintVertical_bias="0.185" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -63,14 +63,13 @@
 
     <ImageButton
         android:id="@+id/btnAcceder"
-        android:layout_width="128dp"
-        android:layout_height="38dp"
+        android:layout_width="121dp"
+        android:layout_height="34dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.462"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
-        app:layout_constraintVertical_bias="0.126"
+        app:layout_constraintVertical_bias="0.176"
         app:srcCompat="@mipmap/acceder_boton" />
 
     <androidx.constraintlayout.widget.Guideline
@@ -78,6 +77,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.22" />
+        app:layout_constraintGuide_percent="0.42" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

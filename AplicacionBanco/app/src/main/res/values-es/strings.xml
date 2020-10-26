@@ -5,4 +5,15 @@
     <string name="banco">Banco</string>
     <string name="login">Usuario</string>
     <string name="passwd">Contraseña</string>
+    <string name="cuentas">Cuentas</string>
+    <string name="transferencias">Transferencias</string>
+    <string name="cambiarPasswd">Cambiar Contraseña</string>
+    <string name="opciones">Opciones</string>
+    <string name="ingresos">Ingresos</string>
+    <string name="soporte">Soporte</string>
+    <string name="oldPasswd">Antigua Contraseña</string>
+    <string name="newPassword">Nueva Contraseña</string>
+    <string name="changepasswdbtn">Cambiar</string>
+    <string name="contraseñaActualizada">Contraseña cambiada correctamente</string>
+    <string name="salir">Salir</string>
 </resources>
