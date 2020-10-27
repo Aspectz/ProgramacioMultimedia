@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
-    tools:context=".changePasswd">
+    android:background="@mipmap/change_passwdland"
+    >
 
 
     <EditText
         android:id="@+id/editTextTextPassword2"
+        style="@style/colorLetras"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
-        style="@style/colorLetras"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -24,10 +24,10 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="152dp"
-        android:layout_height="35dp"
-        android:text="@string/oldPasswd"
         style="@style/colorLetras"
+        android:layout_width="229dp"
+        android:layout_height="44dp"
+        android:text="@string/oldPasswd"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -37,10 +37,10 @@
 
     <TextView
         android:id="@+id/textView10"
+        style="@style/colorLetras"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/newPassword"
-        style="@style/colorLetras"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -78,7 +78,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="285dp" />
+        app:layout_constraintGuide_percent="0.35" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

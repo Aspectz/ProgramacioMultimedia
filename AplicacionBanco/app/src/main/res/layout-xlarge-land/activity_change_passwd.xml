@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@mipmap/change_passwdland"
     >
 
 
@@ -58,8 +58,8 @@
     <TextView
         android:id="@+id/textView11"
         style="@style/colorLetras"
-        android:layout_width="108dp"
-        android:layout_height="35dp"
+        android:layout_width="241dp"
+        android:layout_height="40dp"
         android:layout_marginBottom="4dp"
         android:text="@string/oldPasswd"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword4"

@@ -15,4 +15,12 @@
     <string name="changepasswdbtn">Change</string>
     <string name="contraseñaActualizada">Password Changed Successfully</string>
     <string name="salir">Return</string>
+    <string name="makeTransfer">Make Transfer</string>
+    <string name="senderAcc">Sender Account:</string>
+    <string name="recipientAcc">Recipient Account:</string>
+    <string name="ownAcc">Own Account</string>
+    <string name="foreignAcc">Foreign Account</string>
+    <string name="receipt">Send Receipt</string>
+    <string name="amount">Amount</string>
+    <string name="cancel">Cancel</string>
 </resources>

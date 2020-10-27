@@ -16,4 +16,12 @@
     <string name="changepasswdbtn">Cambiar</string>
     <string name="contraseñaActualizada">Contraseña cambiada correctamente</string>
     <string name="salir">Salir</string>
+    <string name="makeTransfer">Hacer Transferencia</string>
+    <string name="senderAcc">Cuenta Origen:</string>
+    <string name="recipientAcc">Cuenta destino:</string>
+    <string name="ownAcc">Cuenta Propia</string>
+    <string name="foreignAcc">Cuenta Ajena</string>
+    <string name="receipt">Enviar Justificante</string>
+    <string name="amount">Importe</string>
+    <string name="cancel">Cancelar</string>
 </resources>

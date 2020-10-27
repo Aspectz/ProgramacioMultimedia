@@ -154,8 +154,8 @@
 
     <ImageButton
         android:id="@+id/btnContrasena"
-        android:layout_width="120dp"
-        android:layout_height="151dp"
+        android:layout_width="121dp"
+        android:layout_height="153dp"
         android:alpha="0"
         app:layout_constraintBottom_toBottomOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"

@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
-    tools:context=".changePasswd">
+    android:background="@mipmap/change_passwd">
 
 
     <EditText
@@ -24,16 +23,16 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="152dp"
-        android:layout_height="35dp"
-        android:text="@string/oldPasswd"
         style="@style/colorLetras"
+        android:layout_width="235dp"
+        android:layout_height="30dp"
+        android:text="@string/oldPasswd"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.297" />
+        app:layout_constraintVertical_bias="0.306" />
 
     <TextView
         android:id="@+id/textView10"
