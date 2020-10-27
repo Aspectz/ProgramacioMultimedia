@@ -37,8 +37,13 @@ public class mainAppActivity extends AppCompatActivity {
         btnTransferencias.setOnClickListener(new View.OnClickListener(){
           @Override
           public void onClick(View v){
+<<<<<<< HEAD
               Intent newintent=new Intent(mainAppActivity.this, Transferencias.class);
               startActivity(newintent);
+=======
+              Intent intent=new Intent(mainAppActivity.this,Transfers.class);
+              startActivity(intent);
+>>>>>>> 0bcb5330209ab66dda717eba67ea40e091225471
           }
         });
 
